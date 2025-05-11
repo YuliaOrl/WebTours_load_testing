@@ -1,27 +1,29 @@
 ## :green_book: Описание проекта
 
-Проект содержит в себе скрипты для нагрузочного тестирования приложения WebTours для инструментов JMeter и Gatling.
+Проект содержит в себе скрипты для нагрузочного тестирования приложения WebTours для инструментов <a target="_blank" href="https://github.com/YuliaOrl/WebTours_load_testing/tree/master/Jmeter/TestPlans">*JMeter*</a> и <a target="_blank" href="https://github.com/YuliaOrl/WebTours_load_testing/tree/master/Gatling/Scenarios">*Gatling*</a>. 
 WebTours представляет собой веб-приложение онлайн-сервиса бронирования авиаперелётов.
 
 ### :open_file_folder: Структура проекта
 
+```
 Documents/
+├── Профиль       # Профиль нагрузки
 ├── МНТ           # Методика нагрузочного тестирования
-├── Отчет         # Отчеты о проведенных тестах
-└── Профиль       # Профиль нагрузки
-
-Jmeter/
-├── Parameters    # Тестовые данные для сценариев
-└── TestPlan      # Планы тестирования в JMeter
+└── Отчет         # Отчет о проведенных тестах
 
 Gatling/
-├── Scenario      # Проект Gatling со всеми сценариями
 ├── Parameters    # Тестовые данные для сценариев Gatling
-└── Results       # html-отчеты выполнения тестов
+├── Results       # html-отчеты выполнения тестов
+└── Scenarios     # Проект Gatling со всеми сценариями
+
+Jmeter/
+├── Parameters    # Тестовые данные для сценариев 
+└── TestPlans     # Планы тестирования в JMeter
+```
 
 ### :computer: Использованные технологии
 
-- Apache JMeter
 - Gatling (Java)
-- Мониторинг метрик через Grafana
+- Apache JMeter
+- Мониторинг метрик в Grafana
 - Хранение и обработка метрик с использованием Prometheus
