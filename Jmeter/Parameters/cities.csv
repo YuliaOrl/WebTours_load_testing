@@ -1,0 +1,11 @@
+departure,arrival,departure2,arrival2,departure3,arrival3,departure4,arrival4
+Denver,Frankfurt,Los Angeles,Paris,Portland,Frankfurt,Zurich,Denver
+Frankfurt,Los Angeles,Sydney,Zurich,Portland,Denver,Paris,London
+London,San Francisco,Zurich,Portland,Frankfurt,Seattle,Denver,Frankfurt
+Los Angeles,Sydney,London,Denver,Denver,Frankfurt,London,San Francisco
+Paris,Zurich,Frankfurt,Seattle,London,Sydney,Los Angeles,Paris
+Portland,Denver,Seattle,Sydney,Paris,San Francisco,Portland,Los Angeles
+San Francisco,London,Los Angeles,Seattle,Sydney,Paris,London,Zurich
+Seattle,Paris,Portland,Frankfurt,Sydney,Portland,Frankfurt,Sydney
+Sydney,Portland,Denver,London,Los Angeles,Sydney,Denver,Portland
+Zurich,Seattle,Paris,San Francisco,Portland,Denver,Sydney,Seattle
