@@ -1,6 +1,6 @@
 ## :green_book: Описание проекта
 
-Проект содержит скрипты для проведения нагрузочного тестирования приложения WebTours с использованием инструментов <a target="_blank" href="https://github.com/YuliaOrl/WebTours_load_testing/tree/master/Jmeter/TestPlans">*JMeter*</a> и <a target="_blank" href="https://github.com/YuliaOrl/WebTours_load_testing/tree/master/Gatling/Scenarios">*Gatling*</a>. 
+Проект содержит скрипты для проведения нагрузочного тестирования приложения WebTours с использованием инструментов <a target="_blank" href="https://github.com/YuliaOrl/WebTours_load_testing/tree/master/Gatling/Scenarios">*Gatling*</a> и <a target="_blank" href="https://github.com/YuliaOrl/WebTours_load_testing/tree/master/Jmeter/TestPlans">*JMeter*</a>. 
 
 WebTours представляет собой веб-приложение онлайн-сервиса бронирования авиаперелётов.
 
